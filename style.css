@@ -1,0 +1,65 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+name {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+heading {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+papertitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+}
+
+sup {
+  font-size: 70%;
+}
+
+@media (max-width: 850px) {
+  table {
+    width: 100% !important;
+  }
+  table td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  table td p {
+    text-align: left;
+  }
+  name {
+    font-size: 28px;
+  }
+}
